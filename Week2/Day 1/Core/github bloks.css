@@ -1,0 +1,33 @@
+img{
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+.x{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.y{
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.z{
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+}
