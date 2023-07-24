@@ -1,0 +1,159 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    list-style-type: none;
+}
+.active{
+    color: white;
+    text-decoration: none;
+}S
+.nav-links{
+    font-weight: bold  ;
+}
+h1{
+    margin-left: 10px;
+}
+.btn{
+    border: none;
+    background-color: #17a2b8;
+    color: white;
+    height: 25px;
+    width: 100px;
+    box-shadow: 6px 6px 5px black;
+}
+#card{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flex-container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 5px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 150px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+.m, .me, .mb{
+    width: 200px;
+}
+.b{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center ;
+}
+h4{
+    color: white;
+}
+.f, .fm{
+    background-color: #cccccc;
+    border: 1px black solid;
+    border-radius: 100%;
+    width: 20px;
+}
+.ab{
+    text-align: center;
+}
+.xz{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.q{
+    width: 30px;
+    height: 30px;
+}
+.c, .ww, .cb{
+    border: 4px #cdcdcd solid;
+    border-top: none;
+    padding-top: 8px;
+}
+.fm{
+    width: 55px;
+    height: 25px;
+}
+.ww{
+    border-top: #cccccc;
+    padding-left: 20px;
+}
+.me{
+    position: relative;
+    left: 745px;
+    bottom: 240px;
+}
+.mb{
+    width: 702px;
+    position: relative;
+    right: 735px;
+    bottom: 40px;
+}
+.cb{
+    padding: 20px;
+}
+.xx{
+    color: #999;
+}
