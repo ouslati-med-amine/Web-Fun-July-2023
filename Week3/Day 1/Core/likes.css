@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    width: 35%;
+    height: 100px;
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 70px;
+}
+.c{
+    width: 50px;
+    background-color: #ffd966;
+    font-weight: 700;
+    height: 30px;
+    box-shadow: 3px 3px 3px black;
+}
