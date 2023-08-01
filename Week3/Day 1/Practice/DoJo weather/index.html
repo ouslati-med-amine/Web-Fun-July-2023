@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoJo weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>DojoWeather</h1>
+        <ul class="list">
+            <li onclick="alert('Loading weather report...')">Burbank</li>
+            <li onclick="alert('Loading weather report...')">Chicago</li>
+            <li onclick="alert('Loading weather report...')">Dallas</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="head">
+            <h1>San Jose</h1>
+            <span class="b">
+                <h4>show temperature in</h4>
+                <select name="temperature" class="a" onchange="cover()">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </span>
+        </div>
+        <div class="body">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="rain">
+            <h5>some rain</h5>
+            <span class="mm"><p class="g">24°</p><p class="gg">18°</p></span>
+        </div>
+        <div class="body">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <h5>some sun</h5>
+            <span class="mm"><p class="ggg">27°</p><p class="gggg">19°</p></span>
+        </div>
+        <div class="body">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="clouds">
+            <h5>some clouds</h5>
+            <span class="mm"><p class="ggggg">21°</p><p class="gggggg">16°</p></span>
+        </div>
+        <div class="body">
+            <h2>Saturday</h2>
+            <img src="assets/some_sun.png" alt="sun">
+            <h5>some sun</h5>
+            <span class="mm"><p class="ggggggg">26°</p><p class="gggggggg">21°</p></span>
+        </div>
+        <div class="lower">
+            <img src="assets/cookie.png" alt="cookie" class="bb">
+            <span>
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide social media features and to <br> analyse our traffic. <a href="#">Read more...</a></p>
+            </span>
+            <button class="ll" onclick="delit()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
